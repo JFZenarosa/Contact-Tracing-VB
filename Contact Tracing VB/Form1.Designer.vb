@@ -62,7 +62,7 @@ Partial Class Form1
         Me.Title_label.AutoSize = True
         Me.Title_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 26.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Title_label.ForeColor = System.Drawing.Color.Maroon
-        Me.Title_label.Location = New System.Drawing.Point(28, 28)
+        Me.Title_label.Location = New System.Drawing.Point(28, 23)
         Me.Title_label.Name = "Title_label"
         Me.Title_label.Size = New System.Drawing.Size(591, 39)
         Me.Title_label.TabIndex = 0
@@ -72,7 +72,7 @@ Partial Class Form1
         '
         Me.Name_label.AutoSize = True
         Me.Name_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Name_label.Location = New System.Drawing.Point(109, 92)
+        Me.Name_label.Location = New System.Drawing.Point(109, 96)
         Me.Name_label.Name = "Name_label"
         Me.Name_label.Size = New System.Drawing.Size(94, 20)
         Me.Name_label.TabIndex = 1
@@ -82,7 +82,7 @@ Partial Class Form1
         '
         Me.Home_label.AutoSize = True
         Me.Home_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Home_label.Location = New System.Drawing.Point(71, 123)
+        Me.Home_label.Location = New System.Drawing.Point(71, 127)
         Me.Home_label.Name = "Home_label"
         Me.Home_label.Size = New System.Drawing.Size(132, 20)
         Me.Home_label.TabIndex = 2
@@ -92,7 +92,7 @@ Partial Class Form1
         '
         Me.Email_label.AutoSize = True
         Me.Email_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Email_label.Location = New System.Drawing.Point(74, 156)
+        Me.Email_label.Location = New System.Drawing.Point(74, 160)
         Me.Email_label.Name = "Email_label"
         Me.Email_label.Size = New System.Drawing.Size(129, 20)
         Me.Email_label.TabIndex = 3
@@ -102,7 +102,7 @@ Partial Class Form1
         '
         Me.Contact_label.AutoSize = True
         Me.Contact_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Contact_label.Location = New System.Drawing.Point(59, 188)
+        Me.Contact_label.Location = New System.Drawing.Point(59, 192)
         Me.Contact_label.Name = "Contact_label"
         Me.Contact_label.Size = New System.Drawing.Size(144, 20)
         Me.Contact_label.TabIndex = 4
@@ -111,7 +111,7 @@ Partial Class Form1
         'nametxt
         '
         Me.nametxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nametxt.Location = New System.Drawing.Point(209, 92)
+        Me.nametxt.Location = New System.Drawing.Point(209, 96)
         Me.nametxt.Name = "nametxt"
         Me.nametxt.Size = New System.Drawing.Size(349, 22)
         Me.nametxt.TabIndex = 5
@@ -119,7 +119,7 @@ Partial Class Form1
         'hometxt
         '
         Me.hometxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.hometxt.Location = New System.Drawing.Point(209, 125)
+        Me.hometxt.Location = New System.Drawing.Point(209, 129)
         Me.hometxt.Name = "hometxt"
         Me.hometxt.Size = New System.Drawing.Size(349, 22)
         Me.hometxt.TabIndex = 6
@@ -127,7 +127,7 @@ Partial Class Form1
         'emailtxt
         '
         Me.emailtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.emailtxt.Location = New System.Drawing.Point(209, 158)
+        Me.emailtxt.Location = New System.Drawing.Point(209, 162)
         Me.emailtxt.Name = "emailtxt"
         Me.emailtxt.Size = New System.Drawing.Size(349, 22)
         Me.emailtxt.TabIndex = 7
@@ -135,7 +135,7 @@ Partial Class Form1
         'numtxt
         '
         Me.numtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.numtxt.Location = New System.Drawing.Point(209, 190)
+        Me.numtxt.Location = New System.Drawing.Point(209, 194)
         Me.numtxt.Name = "numtxt"
         Me.numtxt.Size = New System.Drawing.Size(349, 22)
         Me.numtxt.TabIndex = 8
@@ -144,7 +144,7 @@ Partial Class Form1
         '
         Me.Date_label.AutoSize = True
         Me.Date_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Date_label.Location = New System.Drawing.Point(150, 219)
+        Me.Date_label.Location = New System.Drawing.Point(150, 223)
         Me.Date_label.Name = "Date_label"
         Me.Date_label.Size = New System.Drawing.Size(53, 20)
         Me.Date_label.TabIndex = 9
@@ -152,7 +152,7 @@ Partial Class Form1
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(209, 221)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(209, 225)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(187, 20)
         Me.DateTimePicker1.TabIndex = 10
@@ -161,7 +161,7 @@ Partial Class Form1
         '
         Me.Time_label.AutoSize = True
         Me.Time_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Time_label.Location = New System.Drawing.Point(408, 219)
+        Me.Time_label.Location = New System.Drawing.Point(408, 223)
         Me.Time_label.Name = "Time_label"
         Me.Time_label.Size = New System.Drawing.Size(52, 20)
         Me.Time_label.TabIndex = 11
@@ -172,7 +172,7 @@ Partial Class Form1
         Me.timer.AutoSize = True
         Me.timer.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.timer.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.timer.Location = New System.Drawing.Point(460, 220)
+        Me.timer.Location = New System.Drawing.Point(460, 224)
         Me.timer.Name = "timer"
         Me.timer.Size = New System.Drawing.Size(0, 20)
         Me.timer.TabIndex = 12
@@ -186,7 +186,7 @@ Partial Class Form1
         '
         Me.label7.AutoSize = True
         Me.label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.label7.Location = New System.Drawing.Point(186, 273)
+        Me.label7.Location = New System.Drawing.Point(186, 278)
         Me.label7.Name = "label7"
         Me.label7.Size = New System.Drawing.Size(273, 31)
         Me.label7.TabIndex = 13
