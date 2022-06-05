@@ -55,4 +55,11 @@
 
     End Sub
 
+    Private Sub button1_Click(sender As Object, e As EventArgs) Handles button1.Click
+        nametxt.Clear()
+        hometxt.Clear()
+        emailtxt.Clear()
+        numtxt.Clear()
+
+    End Sub
 End Class

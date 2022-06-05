@@ -110,30 +110,34 @@ Partial Class Form1
         '
         'nametxt
         '
+        Me.nametxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.nametxt.Location = New System.Drawing.Point(209, 92)
         Me.nametxt.Name = "nametxt"
-        Me.nametxt.Size = New System.Drawing.Size(349, 20)
+        Me.nametxt.Size = New System.Drawing.Size(349, 22)
         Me.nametxt.TabIndex = 5
         '
         'hometxt
         '
+        Me.hometxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.hometxt.Location = New System.Drawing.Point(209, 125)
         Me.hometxt.Name = "hometxt"
-        Me.hometxt.Size = New System.Drawing.Size(349, 20)
+        Me.hometxt.Size = New System.Drawing.Size(349, 22)
         Me.hometxt.TabIndex = 6
         '
         'emailtxt
         '
+        Me.emailtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.emailtxt.Location = New System.Drawing.Point(209, 158)
         Me.emailtxt.Name = "emailtxt"
-        Me.emailtxt.Size = New System.Drawing.Size(349, 20)
+        Me.emailtxt.Size = New System.Drawing.Size(349, 22)
         Me.emailtxt.TabIndex = 7
         '
         'numtxt
         '
+        Me.numtxt.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.numtxt.Location = New System.Drawing.Point(209, 190)
         Me.numtxt.Name = "numtxt"
-        Me.numtxt.Size = New System.Drawing.Size(349, 20)
+        Me.numtxt.Size = New System.Drawing.Size(349, 22)
         Me.numtxt.TabIndex = 8
         '
         'Date_label
@@ -148,7 +152,7 @@ Partial Class Form1
         '
         'DateTimePicker1
         '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(209, 219)
+        Me.DateTimePicker1.Location = New System.Drawing.Point(209, 221)
         Me.DateTimePicker1.Name = "DateTimePicker1"
         Me.DateTimePicker1.Size = New System.Drawing.Size(187, 20)
         Me.DateTimePicker1.TabIndex = 10
