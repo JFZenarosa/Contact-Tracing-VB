@@ -157,7 +157,7 @@ Partial Class Form1
         '
         Me.Time_label.AutoSize = True
         Me.Time_label.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Time_label.Location = New System.Drawing.Point(402, 219)
+        Me.Time_label.Location = New System.Drawing.Point(408, 219)
         Me.Time_label.Name = "Time_label"
         Me.Time_label.Size = New System.Drawing.Size(52, 20)
         Me.Time_label.TabIndex = 11
@@ -166,6 +166,7 @@ Partial Class Form1
         'timer
         '
         Me.timer.AutoSize = True
+        Me.timer.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.timer.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.timer.Location = New System.Drawing.Point(460, 220)
         Me.timer.Name = "timer"
@@ -422,7 +423,6 @@ Partial Class Form1
     Friend WithEvents DateTimePicker1 As DateTimePicker
     Friend WithEvents Time_label As Label
     Friend WithEvents timer As Label
-    Friend WithEvents tickticktime As Timer
     Private WithEvents label7 As Label
     Private WithEvents no5 As CheckBox
     Private WithEvents yes5 As CheckBox
@@ -441,4 +441,5 @@ Partial Class Form1
     Private WithEvents label8 As Label
     Private WithEvents button2 As Button
     Private WithEvents button1 As Button
+    Private WithEvents tickticktime As Timer
 End Class

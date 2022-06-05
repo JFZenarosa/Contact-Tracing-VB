@@ -43,11 +43,13 @@
             form.WriteLine("Have you been Diagnosed with COVID-19?: NO")
         End If
 
+        form.WriteLine("__________________________________________________________________________")
+        form.WriteLine("")
 
         form.Close()
     End Sub
 
-    Private Sub time(sender As Object, e As EventArgs)
+    Private Sub time(sender As Object, e As EventArgs) Handles tickticktime.Tick
 
         timer.Text = DateTime.Now.ToLongTimeString()
 
