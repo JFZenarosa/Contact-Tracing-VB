@@ -18,6 +18,32 @@
         Else
             form.WriteLine("Have you been outside of the country lately?: NO")
         End If
+
+        If yes2.CheckState = CheckState.Checked Then
+            form.WriteLine("Have you been in contact with a person with COVID-19 lately?: YES")
+        Else
+            form.WriteLine("Have you been in contact with a person with COVID-19 lately?: NO")
+        End If
+
+        If yes3.CheckState = CheckState.Checked Then
+            form.WriteLine("Are you feeling any sickness for the past few days?: YES")
+        Else
+            form.WriteLine("Are you feeling any sickness for the past few days?: NO")
+        End If
+
+        If yes4.CheckState = CheckState.Checked Then
+            form.WriteLine("Are you vaccinated?: YES")
+        Else
+            form.WriteLine("Are you vaccinated?: NO")
+        End If
+
+        If yes5.CheckState = CheckState.Checked Then
+            form.WriteLine("Have you been Diagnosed with COVID-19?: YES")
+        Else
+            form.WriteLine("Have you been Diagnosed with COVID-19?: NO")
+        End If
+
+
         form.Close()
     End Sub
 
