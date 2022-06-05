@@ -13,6 +13,11 @@
         form.WriteLine("")
         form.WriteLine("COVID-19 Health Check")
         form.WriteLine("")
+        If yes1.CheckState = CheckState.Checked Then
+            form.WriteLine("Have you been outside of the country lately?: YES")
+        Else
+            form.WriteLine("Have you been outside of the country lately?: NO")
+        End If
         form.Close()
     End Sub
 
