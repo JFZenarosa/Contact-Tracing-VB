@@ -1,4 +1,4 @@
-﻿Public Class Form1
+﻿Public Class CTF
     Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
         Dim form As System.IO.StreamWriter
         form = My.Computer.FileSystem.OpenTextFileWriter("C:\Example\Contact Tracing Form.txt", True)
@@ -46,12 +46,14 @@
         form.WriteLine("__________________________________________________________________________")
         form.WriteLine("")
 
+        MessageBox.Show("Contact Tracing Form Submitted!")
+
         form.Close()
     End Sub
 
     Private Sub time(sender As Object, e As EventArgs) Handles tickticktime.Tick
 
-        timer.Text = DateTime.Now.ToLongTimeString()
+        Timer.Text = DateTime.Now.ToLongTimeString()
 
     End Sub
 

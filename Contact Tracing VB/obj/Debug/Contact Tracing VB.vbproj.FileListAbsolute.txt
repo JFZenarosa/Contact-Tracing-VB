@@ -3,10 +3,10 @@ X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Deb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\Contact Tracing VB.pdb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\Contact Tracing VB.xml
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.vbproj.AssemblyReference.cache
-X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.Form1.resources
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.Resources.resources
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.vbproj.GenerateResource.cache
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.vbproj.CoreCompileInputs.cache
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.exe
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.xml
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.pdb
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.CTF.resources
