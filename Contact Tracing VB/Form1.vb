@@ -61,5 +61,16 @@
         emailtxt.Clear()
         numtxt.Clear()
 
+        yes1.Checked = False
+        yes2.Checked = False
+        yes3.Checked = False
+        yes4.Checked = False
+        yes5.Checked = False
+
+        no1.Checked = False
+        no2.Checked = False
+        no3.Checked = False
+        no4.Checked = False
+        no5.Checked = False
     End Sub
 End Class
