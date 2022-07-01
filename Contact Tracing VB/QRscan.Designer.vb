@@ -27,14 +27,15 @@ Partial Class QRscan
         Me.label2 = New System.Windows.Forms.Label()
         Me.pictureBox = New System.Windows.Forms.PictureBox()
         Me.QRtimer = New System.Windows.Forms.Timer(Me.components)
+        Me.backBtn = New System.Windows.Forms.Button()
         CType(Me.pictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'QRread
         '
-        Me.QRread.Location = New System.Drawing.Point(424, 458)
+        Me.QRread.Location = New System.Drawing.Point(369, 458)
         Me.QRread.Name = "QRread"
-        Me.QRread.Size = New System.Drawing.Size(139, 41)
+        Me.QRread.Size = New System.Drawing.Size(194, 41)
         Me.QRread.TabIndex = 12
         Me.QRread.Text = "Read QR"
         Me.QRread.UseVisualStyleBackColor = True
@@ -64,12 +65,22 @@ Partial Class QRscan
         '
         Me.QRtimer.Interval = 1000
         '
+        'backBtn
+        '
+        Me.backBtn.Location = New System.Drawing.Point(12, 458)
+        Me.backBtn.Name = "backBtn"
+        Me.backBtn.Size = New System.Drawing.Size(94, 41)
+        Me.backBtn.TabIndex = 13
+        Me.backBtn.Text = "Back"
+        Me.backBtn.UseVisualStyleBackColor = True
+        '
         'QRscan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
         Me.ClientSize = New System.Drawing.Size(575, 511)
+        Me.Controls.Add(Me.backBtn)
         Me.Controls.Add(Me.QRread)
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.pictureBox)
@@ -85,4 +96,5 @@ Partial Class QRscan
     Private WithEvents label2 As Label
     Private WithEvents pictureBox As PictureBox
     Friend WithEvents QRtimer As Timer
+    Private WithEvents backBtn As Button
 End Class

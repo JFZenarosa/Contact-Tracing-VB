@@ -36,5 +36,8 @@ Public Class QRscan
         End If
     End Sub
 
-
+    Private Sub backBtn_Click(sender As Object, e As EventArgs) Handles backBtn.Click
+        CTF.Show()
+        Me.Hide()
+    End Sub
 End Class
