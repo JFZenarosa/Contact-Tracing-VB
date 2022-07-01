@@ -27,7 +27,10 @@ Public Class QRscan
             Dim QRscanner As BarcodeReader = New BarcodeReader
             Dim qrInputs As Result = QRscanner.Decode(DirectCast(pictureBox.Image, Bitmap))
             If qrInputs IsNot Nothing Then
-                MessageBox.Show(qrInputs.ToString())
+                Dim ctForm As New CTF
+                ctForm.getOutput = qrInputs.ToString()
+                ctForm.Show()
+                Me.Hide()
             End If
         End If
 

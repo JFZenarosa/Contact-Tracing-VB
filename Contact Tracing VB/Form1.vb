@@ -1,4 +1,7 @@
 ﻿Public Class CTF
+
+    Public Property getOutput As String
+
     Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
         Dim form As System.IO.StreamWriter
         form = My.Computer.FileSystem.OpenTextFileWriter("C:\Example\Contact Tracing Form.txt", True)
@@ -53,7 +56,7 @@
 
     Private Sub time(sender As Object, e As EventArgs) Handles tickticktime.Tick
 
-        Timer.Text = DateTime.Now.ToLongTimeString()
+        timer.Text = DateTime.Now.ToLongTimeString()
 
     End Sub
 
@@ -78,6 +81,10 @@
 
     Private Sub scanQR_Click(sender As Object, e As EventArgs) Handles scanQR.Click
         QRscan.ShowDialog()
+
+    End Sub
+
+    Private Sub CTF_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
 End Class
