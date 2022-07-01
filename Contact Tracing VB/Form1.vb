@@ -90,7 +90,9 @@
             Dim showResult As String()
             showResult = getOutput.Split("|".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
             nametxt.Text = showResult(0)
-
+            hometxt.Text = showResult(1)
+            emailtxt.Text = showResult(2)
+            numtxt.Text = showResult(3)
         End If
     End Sub
 End Class
