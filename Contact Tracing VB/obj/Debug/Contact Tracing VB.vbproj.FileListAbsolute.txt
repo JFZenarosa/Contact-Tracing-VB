@@ -11,3 +11,9 @@ X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Deb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.pdb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.CTF.resources
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.QRscan.resources
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.dll
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.DirectShow.dll
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.dll
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.xml
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.xml
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.DirectShow.xml

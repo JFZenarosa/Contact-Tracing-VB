@@ -54,6 +54,7 @@ Partial Class QRscan
         Me.pictureBox.Location = New System.Drawing.Point(12, 50)
         Me.pictureBox.Name = "pictureBox"
         Me.pictureBox.Size = New System.Drawing.Size(465, 321)
+        Me.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.pictureBox.TabIndex = 8
         Me.pictureBox.TabStop = False
         '
@@ -65,6 +66,7 @@ Partial Class QRscan
         Me.Controls.Add(Me.QRread)
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.pictureBox)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
         Me.Name = "QRscan"
         Me.Text = "QRscan"
         CType(Me.pictureBox, System.ComponentModel.ISupportInitialize).EndInit()
