@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class QRscan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class QRscan
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.QRread = New System.Windows.Forms.Button()
@@ -32,7 +32,7 @@ Partial Class QRscan
         '
         'QRread
         '
-        Me.QRread.Location = New System.Drawing.Point(338, 388)
+        Me.QRread.Location = New System.Drawing.Point(424, 458)
         Me.QRread.Name = "QRread"
         Me.QRread.Size = New System.Drawing.Size(139, 41)
         Me.QRread.TabIndex = 12
@@ -55,7 +55,7 @@ Partial Class QRscan
         Me.pictureBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.pictureBox.Location = New System.Drawing.Point(12, 50)
         Me.pictureBox.Name = "pictureBox"
-        Me.pictureBox.Size = New System.Drawing.Size(465, 321)
+        Me.pictureBox.Size = New System.Drawing.Size(551, 402)
         Me.pictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage
         Me.pictureBox.TabIndex = 8
         Me.pictureBox.TabStop = False
@@ -69,7 +69,7 @@ Partial Class QRscan
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.ClientSize = New System.Drawing.Size(489, 443)
+        Me.ClientSize = New System.Drawing.Size(575, 511)
         Me.Controls.Add(Me.QRread)
         Me.Controls.Add(Me.label2)
         Me.Controls.Add(Me.pictureBox)

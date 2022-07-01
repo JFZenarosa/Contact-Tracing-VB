@@ -1,7 +1,7 @@
 ﻿Public Class CTF
 
     Public Property getOutput As String
-
+    Public Property clickQR As Boolean
     Private Sub button2_Click(sender As Object, e As EventArgs) Handles button2.Click
         Dim form As System.IO.StreamWriter
         form = My.Computer.FileSystem.OpenTextFileWriter("C:\Example\Contact Tracing Form.txt", True)
@@ -80,11 +80,17 @@
     End Sub
 
     Private Sub scanQR_Click(sender As Object, e As EventArgs) Handles scanQR.Click
-        QRscan.ShowDialog()
+        QRscan.Show()
+        Me.Hide()
 
     End Sub
 
     Private Sub CTF_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If clickQR Then
+            Dim showResult As String()
+            showResult = getOutput.Split("|".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
+            nametxt.Text = showResult(0)
 
+        End If
     End Sub
 End Class

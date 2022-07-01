@@ -29,10 +29,12 @@ Public Class QRscan
             If qrInputs IsNot Nothing Then
                 Dim ctForm As New CTF
                 ctForm.getOutput = qrInputs.ToString()
+                ctForm.clickQR = True
                 ctForm.Show()
                 Me.Hide()
             End If
         End If
-
     End Sub
+
+
 End Class
