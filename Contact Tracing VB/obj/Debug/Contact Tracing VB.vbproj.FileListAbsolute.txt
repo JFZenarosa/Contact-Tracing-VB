@@ -17,3 +17,7 @@ X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Deb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.xml
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.xml
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\AForge.Video.DirectShow.xml
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\zxing.dll
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\zxing.pdb
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\bin\Debug\zxing.xml
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.vbproj.CopyComplete

@@ -22,9 +22,11 @@ Partial Class QRscan
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.QRread = New System.Windows.Forms.Button()
         Me.label2 = New System.Windows.Forms.Label()
         Me.pictureBox = New System.Windows.Forms.PictureBox()
+        Me.QRtimer = New System.Windows.Forms.Timer(Me.components)
         CType(Me.pictureBox, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -58,6 +60,10 @@ Partial Class QRscan
         Me.pictureBox.TabIndex = 8
         Me.pictureBox.TabStop = False
         '
+        'QRtimer
+        '
+        Me.QRtimer.Interval = 1000
+        '
         'QRscan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -77,4 +83,5 @@ Partial Class QRscan
     Private WithEvents QRread As Button
     Private WithEvents label2 As Label
     Private WithEvents pictureBox As PictureBox
+    Friend WithEvents QRtimer As Timer
 End Class
