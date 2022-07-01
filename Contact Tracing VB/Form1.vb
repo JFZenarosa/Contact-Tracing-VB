@@ -75,4 +75,9 @@
         no4.Checked = False
         no5.Checked = False
     End Sub
+
+    Private Sub scanQR_Click(sender As Object, e As EventArgs) Handles scanQR.Click
+        QRscan.ShowDialog()
+
+    End Sub
 End Class

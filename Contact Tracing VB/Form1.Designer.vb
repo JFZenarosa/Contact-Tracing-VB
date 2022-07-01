@@ -56,6 +56,7 @@ Partial Class CTF
         Me.label8 = New System.Windows.Forms.Label()
         Me.button2 = New System.Windows.Forms.Button()
         Me.button1 = New System.Windows.Forms.Button()
+        Me.scanQR = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Title_label
@@ -232,11 +233,18 @@ Partial Class CTF
         Me.button1.Name = "button1"
         Me.button1.UseVisualStyleBackColor = True
         '
+        'scanQR
+        '
+        resources.ApplyResources(Me.scanQR, "scanQR")
+        Me.scanQR.Name = "scanQR"
+        Me.scanQR.UseVisualStyleBackColor = True
+        '
         'CTF
         '
         resources.ApplyResources(Me, "$this")
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.Controls.Add(Me.scanQR)
         Me.Controls.Add(Me.button2)
         Me.Controls.Add(Me.button1)
         Me.Controls.Add(Me.no5)
@@ -307,4 +315,5 @@ Partial Class CTF
     Private WithEvents button2 As Button
     Private WithEvents button1 As Button
     Private WithEvents tickticktime As Timer
+    Private WithEvents scanQR As Button
 End Class

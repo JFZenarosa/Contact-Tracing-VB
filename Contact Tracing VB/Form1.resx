@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Title_label.ZOrder" xml:space="preserve">
-    <value>30</value>
+    <value>31</value>
   </data>
   <data name="Name_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -177,7 +177,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Name_label.ZOrder" xml:space="preserve">
-    <value>29</value>
+    <value>30</value>
   </data>
   <data name="Home_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -207,7 +207,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Home_label.ZOrder" xml:space="preserve">
-    <value>28</value>
+    <value>29</value>
   </data>
   <data name="Email_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -237,7 +237,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Email_label.ZOrder" xml:space="preserve">
-    <value>27</value>
+    <value>28</value>
   </data>
   <data name="Contact_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -267,7 +267,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Contact_label.ZOrder" xml:space="preserve">
-    <value>26</value>
+    <value>27</value>
   </data>
   <data name="nametxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -291,7 +291,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;nametxt.ZOrder" xml:space="preserve">
-    <value>25</value>
+    <value>26</value>
   </data>
   <data name="hometxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -315,7 +315,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;hometxt.ZOrder" xml:space="preserve">
-    <value>24</value>
+    <value>25</value>
   </data>
   <data name="emailtxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -339,7 +339,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;emailtxt.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>24</value>
   </data>
   <data name="numtxt.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt</value>
@@ -363,7 +363,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;numtxt.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>23</value>
   </data>
   <data name="Date_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -393,7 +393,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Date_label.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>22</value>
   </data>
   <data name="DateTimePicker1.Location" type="System.Drawing.Point, System.Drawing">
     <value>209, 225</value>
@@ -414,7 +414,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;DateTimePicker1.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>21</value>
   </data>
   <data name="Time_label.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -444,7 +444,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Time_label.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>20</value>
   </data>
   <data name="timer.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -471,7 +471,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;timer.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>19</value>
   </data>
   <metadata name="tickticktime.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -504,7 +504,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>18</value>
   </data>
   <data name="no5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -534,7 +534,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;no5.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="yes5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -564,7 +564,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yes5.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="no4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -594,7 +594,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;no4.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="yes4.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -624,7 +624,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yes4.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="no3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -654,7 +654,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;no3.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="yes3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -684,7 +684,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yes3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="no2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -714,7 +714,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;no2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="yes2.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -744,7 +744,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yes2.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="no1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -774,7 +774,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;no1.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="yes1.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -804,7 +804,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;yes1.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="label12.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -834,7 +834,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label12.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="label11.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -864,7 +864,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="label10.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -894,7 +894,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label10.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>15</value>
   </data>
   <data name="label9.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -924,7 +924,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label9.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>16</value>
   </data>
   <data name="label8.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -954,7 +954,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label8.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>17</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
     <value>506, 531</value>
@@ -978,7 +978,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
     <value>413, 531</value>
@@ -1002,7 +1002,35 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="scanQR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="scanQR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 531</value>
+  </data>
+  <data name="scanQR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 35</value>
+  </data>
+  <data name="scanQR.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="scanQR.Text" xml:space="preserve">
+    <value>Scan QR</value>
+  </data>
+  <data name="&gt;&gt;scanQR.Name" xml:space="preserve">
+    <value>scanQR</value>
+  </data>
+  <data name="&gt;&gt;scanQR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;scanQR.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;scanQR.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1013,7 +1041,6 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>645, 578</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>

@@ -10,3 +10,4 @@ X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Deb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.xml
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact Tracing VB.pdb
 X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.CTF.resources
+X:\School\Visual Studio\Repository\Contact Tracing VB\Contact Tracing VB\obj\Debug\Contact_Tracing_VB.QRscan.resources
